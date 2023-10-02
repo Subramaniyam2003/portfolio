@@ -1,0 +1,47 @@
+
+body{
+background-image: url(pic/bg2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile{
+    padding: 10px;
+    background-image: url(pic/J4o.gif);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic{
+    
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+}
+.name{
+    color: rgb(255, 255, 255);
+}
+.sentence{
+    background-color: rgb(6, 82, 117);
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#github{
+    height: 100px;
+    width: 100px;
+}
+.entire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.video{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}

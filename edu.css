@@ -1,0 +1,30 @@
+
+.whole{
+    padding: 20px;
+    background-image: url(pic/bg2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.edugif{
+    height: 150px;
+    width: 180px;
+}
+#sslc{
+    border-radius: 5px;
+}
+.sslcname{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.entire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#details{
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: gainsboro;
+}
