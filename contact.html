@@ -61,6 +61,7 @@
   <form class="container" id="contactForm">
     <div class="card" style="background-color: gainsboro;">
         <div class="card-body">
+         <center><p><b>Please make sure all the details are entered before submitting.</b></p></center>
             <div class="form-group">
                 <label for="exampleFormControlInput1">
                     <b>Enter Your Name</b>
@@ -88,12 +89,18 @@
             </div>
 <br>
         </div>
-        <button style="margin: 10px;" type="submit" class="btn btn-primary"
+        <button onclick="myFunction()" style="margin: 10px;" type="submit" class="btn btn-primary"
             style="margin-left: 15px; margin-top: 10px">
             <b>Submit</b>
         </button>
     </div>
 </form>
+<script>
+function myFunction() {
+  alert("Thanks for Submitting...");
+}
+</script>
+
 <script src=
 "https://www.gstatic.com/firebasejs/3.7.4/firebase.js">
 	</script>
